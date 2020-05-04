@@ -1,0 +1,27 @@
+.button {
+  cursor: pointer;
+  border: 1px solid #1a202c;
+  padding: 8px;
+  min-width: 64px;
+
+  background: transparent;
+
+  transition: all 0.1s ease-in;
+
+  &:hover {
+    background: #1a202c;
+    color: #ffffff;
+  }
+}
+
+.unordered-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+}
